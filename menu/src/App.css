@@ -1,0 +1,31 @@
+.dropBack{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.undertext{
+    /* background-color: blue; */
+    position: relative;
+}
+@keyframes undertextB {
+    from{width: 0; opacity: 0;}
+    to{width:100px; opacity: 1;}
+}
+.undertext::before{
+    content:"";
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    animation: undertextB .8s infinite alternate;
+    /* display: block; */
+    width:100px;
+    background: #c59d5f;
+    height: 5px;
+
+
+}

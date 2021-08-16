@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box !important;
+}
+body{
+    background: rgba(224, 241, 243, 0.623) !important;
+}
+.boxLoading:{
+
+}
+.loading{
+    width: 10px;
+    height: 10px;
+    background-color: #dd2399;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+
+}
+.activebtn{
+    border:none;
+    color:#22794d;
+    border-bottom: 3px solid #2dcc7d ;
+}
+@media only screen and (min-width: 992px) {
+  .activebtn {
+      border:none;
+      border-left: 3px solid #2dcc7d !important ;
+  }
+}

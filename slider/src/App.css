@@ -1,0 +1,14 @@
+article.review{
+    opacity:.2 ;
+}
+article.activeSlide{
+    opacity: 1;
+    transform: translateX(0) !important;
+    transition: all .35s;
+}
+article.nextSlide{
+    transform: translateX(100%) !important;
+}
+article.lastSlide  {
+    transform: translateX(-100%) !important;
+}

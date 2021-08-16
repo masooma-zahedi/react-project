@@ -1,0 +1,21 @@
+body{
+    background: rgb(224, 212, 212) !important;
+}
+.myTour {
+    position:relative;
+    display:inline-block;
+}
+.myTour:after {
+    content:'';
+    position:absolute;
+    left:0;right:0;
+    top:75%;
+    margin: 10px auto;
+    width:50%;
+    height:4px;
+    background:rgb(42, 154, 230);
+    border-radius: 10px;
+}
+.jkj{
+    background: #d2f1fa;
+}
