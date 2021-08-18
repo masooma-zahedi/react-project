@@ -54,5 +54,4 @@ function App() {
     )
   }
 
-// note 2222
 export default App
